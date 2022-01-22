@@ -4025,6 +4025,10 @@ Back To Top Section
     padding-top: 2px;
 }
 
+.mrp {
+    margin-right: 10px;
+}
+
 
 /**
  * 5. - HOME
@@ -5023,8 +5027,8 @@ dl.hiw dd .team-2 .title,
 }
 
 .footer .footer-item .logo-bottom {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .footer .footer-item .footer-title {
@@ -5048,10 +5052,10 @@ dl.hiw dd .team-2 .title,
     background-color: #FFFFFF;
     left: 0;
     bottom: 0;
+    margin-left: 167px;
 }
 
 .footer .footer-item .footer-sosmed {
-    margin-top: 50px;
     margin-bottom: 30px;
     display: inline-block;
 }
@@ -5172,7 +5176,6 @@ dl.hiw dd .team-2 .title,
 
 .footer .footer-item .recent-post li {
     list-style: none;
-    margin: 0 0 30px;
 }
 
 .footer .footer-item .recent-post li a {
