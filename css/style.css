@@ -845,8 +845,10 @@ dfn {
 
 .section.overlap-bottom>.container {
     background-color: #FFFFFF;
+    margin-top: 10vh;
     padding-top: 20px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 14px 0px rgba(12, 31, 56, 0.82);
 }
 
 .section.section-border>.container {
@@ -1338,7 +1340,7 @@ ul.circle li:before {
     -ms-border-radius: 3px;
     border-radius: 3px;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #0c1f38;
     left: 0;
     bottom: 0;
 }
@@ -1432,7 +1434,7 @@ Back To Top Section
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: #FFFFFF url("../images/cd-top-arrow.svg") no-repeat center 50%;
+    background: #FFFFFF url() no-repeat center 50%;
     visibility: hidden;
     opacity: 0;
     -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -2007,7 +2009,7 @@ Back To Top Section
     width: 30px;
     display: block;
     margin: 7% 0;
-    background: #e6af2a;
+    background: #0c1f38;
 }
 
 .box-icon-5 .text {
@@ -2388,7 +2390,7 @@ Back To Top Section
 }
 
 .team-2:hover .media {
-    background-color: rgba(255, 195, 29, 0.9);
+    background-color: #161def;
 }
 
 .team-2:hover .media img {
@@ -2421,7 +2423,7 @@ Back To Top Section
 }
 
 .team-2 .position {
-    color: #FFFFFF;
+    color: #000000;
     font-size: 13px;
 }
 
@@ -2507,7 +2509,7 @@ Back To Top Section
     width: 30px;
     display: block;
     margin: 7% 0;
-    background: #fde428;
+    background: #0c1f38;
     -webkit-transform-origin: left top;
     -moz-transform-origin: left top;
     -ms-transform-origin: left top;
@@ -4370,6 +4372,7 @@ dl.hiw dd .team-2 .title,
     background: url("../images/9.jpg") bottom center no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    padding-bottom: 30px;
 }
 
 .bg-dark:before {
@@ -5017,7 +5020,7 @@ dl.hiw dd .team-2 .title,
  */
 
 .footer {
-    padding: 200px 0 0 0;
+    padding: 80px 0 0 0;
     background-color: #0c1f38;
     color: #ffffff;
 }
@@ -5026,12 +5029,12 @@ dl.hiw dd .team-2 .title,
     padding-bottom: 50px;
 }
 
-.footer .footer-item .logo-bottom {
-    margin-top: 50px;
+.footer-item .logo-bottom {
+    margin-top: 36px;
     margin-bottom: 30px;
 }
 
-.footer .footer-item .footer-title {
+.footer-item .footer-title {
     font-size: 24px;
     font-weight: 600;
     padding: 20px 0 20px 0;
@@ -5039,7 +5042,7 @@ dl.hiw dd .team-2 .title,
     position: relative;
 }
 
-.footer .footer-item .footer-title:after {
+.footer-item .footer-title:after {
     content: '';
     display: block;
     width: 30px;
@@ -5049,18 +5052,18 @@ dl.hiw dd .team-2 .title,
     -ms-border-radius: 3px;
     border-radius: 3px;
     position: absolute;
-    background-color: #FFFFFF;
+    background-color: #0c1f38;
     left: 0;
     bottom: 0;
     margin-left: 167px;
 }
 
-.footer .footer-item .footer-sosmed {
+.footer-item .footer-sosmed {
     margin-bottom: 30px;
     display: inline-block;
 }
 
-.footer .footer-item .footer-sosmed a .item {
+.footer-item .footer-sosmed a .item {
     color: #ffffff;
     display: table-cell;
     vertical-align: middle;
@@ -5075,37 +5078,37 @@ dl.hiw dd .team-2 .title,
     border-radius: 50px;
 }
 
-.footer .footer-item .footer-sosmed a .item:hover {
+.footer-item .footer-sosmed a .item:hover {
     background-color: #FFFFFF;
 }
 
-.footer .footer-item .footer-sosmed a .item .fa {
+.footer-item .footer-sosmed a .item .fa {
     font-size: 16px;
 }
 
-.footer .footer-item .list {
+.footer-item .list {
     margin: 0;
     padding: 0;
 }
 
-.footer .footer-item .list li {
+.footer-item .list li {
     list-style: none;
     margin: 14px 0;
 }
 
-.footer .footer-item .list li a {
+.footer-item .list li a {
     color: rgba(255, 195, 29, 0.7);
 }
 
-.footer .footer-item .list li a:hover {
+.footer-item .list li a:hover {
     color: #FFFFFF;
 }
 
-.footer .footer-item .footer-subscribe {
+.footer-item .footer-subscribe {
     position: relative;
 }
 
-.footer .footer-item .footer-subscribe input[type=email] {
+.footer-item .footer-subscribe input[type=email] {
     width: 100%;
     background: #fff;
     padding: 10px 57px 10px 17px;
@@ -5117,7 +5120,7 @@ dl.hiw dd .team-2 .title,
     border-radius: 0;
 }
 
-.footer .footer-item .footer-subscribe input[type=email]:focus {
+.footer-item .footer-subscribe input[type=email]:focus {
     background: #fff;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -5129,14 +5132,14 @@ dl.hiw dd .team-2 .title,
     border-color: transparent;
 }
 
-.footer .footer-item .footer-subscribe input[type=submit] {
+.footer-item .footer-subscribe input[type=submit] {
     position: absolute;
     left: 0;
     top: 0;
     visibility: hidden;
 }
 
-.footer .footer-item .footer-subscribe label {
+.footer-item .footer-subscribe label {
     position: absolute;
     right: 0;
     top: 0;
@@ -5159,26 +5162,26 @@ dl.hiw dd .team-2 .title,
     background: #FFFFFF;
 }
 
-.footer .footer-item .footer-subscribe .icon {
+.footer-item .footer-subscribe .icon {
     font-size: 18px;
 }
 
-.footer .footer-item .footer-subscribe p {
+.footer-item .footer-subscribe p {
     color: rgba(255, 255, 255, 0.7);
     font-size: 13px;
     margin-top: 16px;
 }
 
-.footer .footer-item .recent-post {
+.footer-item .recent-post {
     margin: 0;
     padding: 0;
 }
 
-.footer .footer-item .recent-post li {
+.footer-item .recent-post li {
     list-style: none;
 }
 
-.footer .footer-item .recent-post li a {
+.footer-item .recent-post li a {
     color: #fff;
     line-height: 20px;
     display: inline-block;
@@ -5186,22 +5189,22 @@ dl.hiw dd .team-2 .title,
     margin: 0 0 14px;
 }
 
-.footer .footer-item .recent-post li a:hover {
+.footer-item .recent-post li a:hover {
     color: #FFFFFF;
 }
 
-.footer .footer-item .recent-post li .date {
+.footer-item .recent-post li .date {
     display: block;
     font-size: 12px;
     padding: 0;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.footer .footer-item .recent-post li .date i {
+.footer-item .recent-post li .date i {
     margin-right: 5px;
 }
 
-.footer .fcopy {
+.fcopy {
     padding: 30px 0;
     color: #ffffff;
     font-size: 14px;
@@ -5485,6 +5488,9 @@ dl.hiw dd .team-2 .title,
         width: 100%;
     }
 }
+
+
+/*# sourceMappingURL=style.css.map */
 
 
 /*# sourceMappingURL=style.css.map */
