@@ -20,3 +20,8 @@
     background-repeat: no-repeat !important;
     background-size: cover !important;
 }
+
+.bg-c-green {
+    -webkit-box-shadow: 0 0 0 4px rgba(46, 216, 182, .5);
+    box-shadow: 0 0 0 4px rgba(46, 216, 182, .5);
+}

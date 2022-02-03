@@ -366,12 +366,12 @@ legend {
  * SHADOW PROPERTIES CONFIGURATION
  * ================================================================================================== */
 
-.shadow {
-    box-shadow: 0 0 15px rgba(28, 39, 60, 0.06) !important;
+.shadow-light {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.103) !important;
 }
 
 .shadow-dark {
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.575);
 }
 
 
@@ -1461,28 +1461,32 @@ a:hover {
     background: var(--deg);
 }
 
-.bg-lg-b {
+.bg-lg-prodig {
     background-image: linear-gradient(to bottom right, #05e2ff, #0066ff) !important;
     ;
 }
 
-.bg-lg-r {
+.bg-lg-danger {
     background-image: linear-gradient(to bottom right, #ff4929, #ee1e1e, #dd0000) !important;
     ;
 }
 
-.bg-lg-o {
-    background: linear-gradient(to bottom right, #fd9814, #fd7e14, #ec6a00) !important;
+.bg-lg-orange {
+    background: linear-gradient(to bottom right, #fd9814, #fd7e14, #e66700) !important;
 }
 
-.bg-lg-g {
-    background: linear-gradient(to bottom right, #11fd60, #02ca7d, var(--c2)) !important;
+.bg-lg-success {
+    background: linear-gradient(to bottom right, #06fa9d, #03db88, #02ca7d) !important;
     ;
 }
 
-.bg-lg-g-inv {
-    background: linear-gradient(to bottom right, var(--c2), #02ca7d, #11fd60) !important;
+.bg-lg-warning {
+    background: linear-gradient(to bottom right, #faf606, #f6fa06, #ebe700) !important;
     ;
+}
+
+.bg-transparent {
+    background-color: #00000000 !important;
 }
 
 .bg-inverse {
