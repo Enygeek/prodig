@@ -21,7 +21,16 @@
     background-size: cover !important;
 }
 
-.bg-c-green {
-    -webkit-box-shadow: 0 0 0 4px rgba(46, 216, 182, .5);
-    box-shadow: 0 0 0 4px rgba(46, 216, 182, .5);
+.bimg-hp3 {
+    height: 100vh !important;
+    margin-bottom: 0px !important;
+    background: url('../images/home/hp2.png') !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.footer {
+    height: 50vh !important;
+    margin: 0px !important;
 }
