@@ -1048,6 +1048,13 @@ a:hover {
     padding-top: 1.5rem !important;
 }
 
+
+/* PT % */
+
+.pt-20p {
+    padding-top: 20% !important;
+}
+
 .pr-4 {
     padding-right: 1.5rem !important;
 }
