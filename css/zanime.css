@@ -1602,11 +1602,11 @@ a:hover {
 }
 
 .gray {
-    color: gray;
+    color: gray !important;
 }
 
 .tx-white {
-    color: #fff;
+    color: #fff !important;
 }
 
 .tx-black {
