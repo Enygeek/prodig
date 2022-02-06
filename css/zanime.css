@@ -10,12 +10,9 @@
 */
 
 
-/* ===========================================================
-                          GENERALE 
-===========================================================*/
-
-
-/* _____________________________@ Initialisation de variable @______________________________ */
+/*  ==================================================================================================
+ *      GENERALE : INITIALISATION DE VARIABLES PROPERTIES CONFIGURATION
+ *  ================================================================================================== */
 
 :root {
     --c1: #019ee8;
@@ -34,33 +31,18 @@
    ============================================================================================== */
 
 
-/* ===========================================================
-                            SPECIFIQUE 
-===========================================================*/
-
-
-/*  ==========================================================================
-                                @ STYLES & CLASSE [PRE DEFINI] @
-              ========================================================================== */
-
-legend {
-    background-color: #000;
-    color: #fff;
-    padding: 3px 6px;
-}
-
-
-/* _____________________________@ PRORITETE FLEX BY ZABRACODE @______________________________ */
+/* ==================================================================================================
+ * FLEX PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 .flex {
     display: flex;
 }
 
 
-/* _____________________________@ FIN : PRORITETE FLEX BY ZABRACODE @______________________________ */
-
-
-/* _____________________________@ PRORITETE FLOAT BY ZABRACODE @______________________________ */
+/* ==================================================================================================
+ * FLOAT PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 .fr {
     float: right;
@@ -73,6 +55,12 @@ legend {
 .cb {
     clear: both;
 }
+
+
+/* ==================================================================================================
+ * BOX PROPERTIES : 
+ *      BUILD CARD PROPERTIE
+ * ================================================================================================== */
 
 
 /* ==================================================================================================
@@ -542,6 +530,14 @@ legend {
 
 
 /* ==================================================================================================
+ * TEXT : 
+ *      FONT SIZE 
+ *      TEXT COLOR 
+ *      TEXT
+ * ================================================================================================== */
+
+
+/* ==================================================================================================
  * TEXT : FONT SIZE PROPERTIES CONFIGURATION
  * ================================================================================================== */
 
@@ -651,20 +647,196 @@ legend {
 
 
 /* ==================================================================================================
- * TEXT : FONT SIZE PROPERTIES CONFIGURATION
+ * TEXT COLOR PROPERTIES CONFIGURATION
  * ================================================================================================== */
 
+.white {
+    color: #fff;
+}
 
-/* _____________________________@ FIN : PRORITETE FLOAT BY ZABRACODE @______________________________ */
+.black {
+    color: #000;
+}
+
+.whitesmoke {
+    color: whitesmoke;
+}
+
+.gray {
+    color: gray;
+}
+
+.tx-white {
+    color: #fff;
+}
+
+.tx-black {
+    color: #000;
+}
+
+.tx-primary {
+    color: #0168fa;
+}
+
+.tx-success {
+    color: #10b759;
+}
+
+.tx-warning {
+    color: #ffc107;
+}
+
+.tx-danger {
+    color: #dc3545;
+}
+
+.tx-info {
+    color: #00b8d4;
+}
+
+.tx-teal {
+    color: #00cccc;
+}
+
+.tx-orange {
+    color: #fd7e14;
+}
+
+.tx-pink {
+    color: #f10075;
+}
+
+.tx-dark {
+    color: #1b2e4b;
+}
+
+.tx-inverse {
+    color: #001737;
+}
+
+
+/* HOVER */
+
+.h-dark:hover {
+    color: #001737;
+    ;
+}
+
+.h-pink:hover {
+    color: #f10075;
+}
+
+
+/* ==================================================================================================
+ * BACKGROUND : 
+ *      BACKGROUND COLOR 
+ *      BACKOUNG LINEAR GRADIENT
+ *      BACKOUNG LINEAR GRADIENT WITH IMAGE 
+ * ================================================================================================== */
+
+.cpp-br {
+    clip-pbgth: polygon(0 0, 100% 0, 100% 75vh, 0 85vh);
+}
+
+
+/* ==================================================================================================
+ * BACKGROUND : BACKGROUN COLOR PROPERTIES CONFIGURATION
+ * ================================================================================================== */
+
+.bg-transparent {
+    background-color: #00000000 !important;
+}
+
+.bg-inverse {
+    background-color: #000000;
+}
+
+.bg-yellow {
+    background-color: #ffc107 !important;
+}
+
+.bg-indigo {
+    background-color: #5b47fb;
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+.bg-pink {
+    background-color: #f10075;
+}
+
+.bg-orange {
+    background-color: #fd7e14 !important;
+}
+
+.bg-teal {
+    background-color: #00cccc;
+}
+
+.bg-lightblue {
+    background-color: #a5d7fd !important;
+}
+
+.bg-transparent {
+    background-color: transparent;
+}
+
+.bg-facebook {
+    background-color: #4064ac;
+}
+
+.bg-success {
+    background-color: #10b759;
+}
+
+.bg-twitter {
+    background-color: #00a7e6;
+}
+
+
+/* ==================================================================================================
+ * BACKGROUND : BACKGROUN LINEAR-GRADIENT COLOR PROPERTIES CONFIGURATION
+ * ================================================================================================== */
+
+.bg-01 {
+    background: var(--deg);
+}
+
+.bg-lg-prodig {
+    background-image: linear-gradient(to bottom right, #05e2ff, #0066ff) !important;
+    ;
+}
+
+.bg-lg-danger {
+    background-image: linear-gradient(to bottom right, #ff4929, #ee1e1e, #dd0000) !important;
+    ;
+}
+
+.bg-lg-orange {
+    background: linear-gradient(to bottom right, #fd9814, #fd7e14, #e66700) !important;
+}
+
+.bg-lg-success {
+    background: linear-gradient(to bottom right, #06fa9d, #03db88, #02ca7d) !important;
+    ;
+}
+
+.bg-lg-warning {
+    background: linear-gradient(to bottom right, #faf606, #f6fa06, #ebe700) !important;
+    ;
+}
+
+
+/* ==================================================================================================
+ * BACKGROUND : BACKOUNG LINEAR GRADIENT WITH IMAGE PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 .bgimg-deg {
     background: linear-gradient(to right bottom, #19ccc3d0, #10d899d3), url("../img/img.jpg");
     background-size: cover;
     background-position: center;
-}
-
-.cpp-br {
-    clip-pbgth: polygon(0 0, 100% 0, 100% 75vh, 0 85vh);
 }
 
 
@@ -691,16 +863,6 @@ legend {
 }
 
 
-/* New : Text-Hover animation By ZABRACODE */
-
-.tx-hover-white:hover {
-    color: white;
-}
-
-
-/* _____________________________@ FIN : PRORITETE FLEX BY ZABRACODE @______________________________ */
-
-
 /* _____________________________@ FIN : LETTER'S PROPERTIES BY ZABRACODE @______________________________ */
 
 .ls-2x {
@@ -715,7 +877,15 @@ legend {
 }
 
 
-/* _____________________________@ PRORITETE ZBTN BY ZABRACODE @______________________________ */
+/* ==================================================================================================
+ * BUTTON : 
+ *      
+ * ================================================================================================== */
+
+
+/* ==================================================================================================
+ * BUTTON : FONT SIZE PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 
 /* BTN : zbtn */
@@ -828,15 +998,15 @@ a:hover {
 /* _____________________________@ TEXT POSITION BY ZABRACODE @______________________________ */
 
 .tx-center {
-    text-align: center;
+    text-align: center !important;
 }
 
 .tx-right {
-    text-align: right;
+    text-align: right !important;
 }
 
 .tx-left {
-    text-align: left;
+    text-align: left !important;
 }
 
 
@@ -875,84 +1045,16 @@ a:hover {
 
 /* _____________________________@ TEXT COLOR BY ZABRA CODE @______________________________ */
 
-.white {
-    color: #fff;
-}
 
-.black {
-    color: #000;
-}
-
-.whitesmoke {
-    color: whitesmoke;
-}
-
-.gray {
-    color: gray;
-}
-
-.tx-white {
-    color: #fff;
-}
-
-.tx-black {
-    color: #000;
-}
-
-.tx-primary {
-    color: #0168fa;
-}
-
-.tx-success {
-    color: #10b759;
-}
-
-.tx-warning {
-    color: #ffc107;
-}
-
-.tx-danger {
-    color: #dc3545;
-}
-
-.tx-info {
-    color: #00b8d4;
-}
-
-.tx-teal {
-    color: #00cccc;
-}
-
-.tx-orange {
-    color: #fd7e14;
-}
-
-.tx-pink {
-    color: #f10075;
-}
-
-.tx-dark {
-    color: #1b2e4b;
-}
-
-.tx-inverse {
-    color: #001737;
-}
+/* ==================================================================================================
+ * MARGIN : 
+ *      FONT SIZE 
+ * ================================================================================================== */
 
 
-/* HOVER */
-
-.h-dark:hover {
-    color: #001737;
-    ;
-}
-
-.h-pink:hover {
-    color: #f10075;
-}
-
-
-/* _____________________________@ FIN : TEXT COLOR BY ZABRA CODE @______________________________ */
+/* ==================================================================================================
+ * TEXT : FONT SIZE PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 
 /* _____________________________@ HEIGHT BY ZABRACODE @______________________________ */
@@ -1670,54 +1772,6 @@ a:hover {
 }
 
 
-/* _____________________________@ FIN : TEXT COLOR BY ZABRA CODE @______________________________ */
-
-
-/* _____________________________@ FIN : BACKGROUND BY ZABRACODE @______________________________ */
-
-@media only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px) {
-    table {
-        width: 100%;
-    }
-    table,
-    thead,
-    tbody,
-    th,
-    td,
-    tr {
-        display: block;
-    }
-    /* Cacher le header de la table*/
-    thead tr {
-        position: absolute;
-        top: -9999px;
-        left: -9999px;
-    }
-    tr {
-        border: 1px solid #ccc;
-    }
-    td {
-        border: none;
-        border-bottom: 1px solid #eee;
-        position: relative;
-        padding-left: 50%;
-    }
-    td:before {
-        position: absolute;
-        /* Valeur du padding top/left*/
-        top: 6px;
-        left: 6px;
-        width: 45%;
-        padding-right: 10px;
-        white-space: nowrap;
-        content: attr(data-column);
-        color: #000;
-        font-weight: bold;
-    }
-}
-
-
 /* _____________________________@ FIN : TABLEAUX BY ZABRACODE @______________________________ */
 
 .btn-success {
@@ -1764,57 +1818,6 @@ a:hover {
     background: #007bb4;
     color: white;
 }
-
-
-/* _____________________________@ FIN : BTN BY ZABRACODE @______________________________ */
-
-.w3-container:after,
-.w3-container:before {
-    content: "";
-    display: table;
-    clear: both
-}
-
-
-/* _____________________________@ FORM BY ZABRACODE @______________________________ */
-
-.input-default,
-select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-
-/* input[type=submit] {
-width: 100%;
-background-color: #4CAF50;
-color: white;
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-border-radius: 4px;
-cursor: pointer;
-} */
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-
-/* 
-div {
-border-radius: 5px;
-background-color: #f2f2f2;
-padding: 20px;
-} */
-
-
-/* _____________________________@ FIN : FORM BY ZABRACODE @______________________________ */
 
 
 /* _____________________________@ FIN : FORM BY ZABRACODE @______________________________ */
