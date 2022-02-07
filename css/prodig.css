@@ -30,6 +30,15 @@
     background-size: cover !important;
 }
 
+.bimg-hp4 {
+    margin-bottom: 0px !important;
+    background: linear-gradient(to right bottom, #0e0f0fd0, #01252ed3), url("../images/home/hp3.jpg");
+    background-attachment: fixed;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
 .footer {
     height: 50vh !important;
     margin: 0px !important;
