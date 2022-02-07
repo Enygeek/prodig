@@ -351,7 +351,7 @@
 
 
 /* ==================================================================================================
- * SHADOW PROPERTIES CONFIGURATION
+ * BOX-SHADOW PROPERTIES CONFIGURATION
  * ================================================================================================== */
 
 .shadow-light {
@@ -361,6 +361,11 @@
 .shadow-dark {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.575);
 }
+
+
+/* ==================================================================================================
+ *                          DIMENSION - MARGIN / PADDING PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 
 /* ==================================================================================================
@@ -532,6 +537,7 @@
 /* ==================================================================================================
  * TEXT : 
  *      FONT SIZE 
+ *      FONT WEIGHT 
  *      TEXT COLOR 
  *      TEXT
  * ================================================================================================== */
@@ -643,6 +649,40 @@
 
 .tx-50 {
     font-size: 50px;
+}
+
+
+/* ==================================================================================================
+ * FONT-WEIGHT PROPERTIES CONFIGURATION
+ * ================================================================================================== */
+
+.tx-bolder {
+    font-weight: 900 !important;
+}
+
+.tx-bold {
+    font-weight: 700 !important;
+}
+
+.tx-normal {
+    font-weight: 400 !important;
+}
+
+
+/* ==================================================================================================
+ * TEXT-ALIGN PROPERTIES CONFIGURATION
+ * ================================================================================================== */
+
+.tx-center {
+    text-align: center !important;
+}
+
+.tx-right {
+    text-align: right !important;
+}
+
+.tx-left {
+    text-align: left !important;
 }
 
 
@@ -974,43 +1014,18 @@ a:hover {
 }
 
 
-/* _____________________________@ FIN : BORDER BY ZABRACODE @______________________________ */
+/* ==================================================================================================
+ *  TEXT PROPERTIES CONFIGURATION : 
+ *      TEXT SIZE
+ *      FONT-WEIGHT 
+ *      TEXT-ALIGN
+ *      
+ * ================================================================================================== */
 
 
-/* _____________________________@ TEXT-PROPERTIE BY ZABRACODE @______________________________ */
-
-.tx-bolder {
-    font-weight: 900 !important;
-}
-
-.tx-bold {
-    font-weight: 700 !important;
-}
-
-.tx-normal {
-    font-weight: 400 !important;
-}
-
-
-/* _____________________________@ FIN : TEXT-PROPERTIE BY ZABRACODE @______________________________ */
-
-
-/* _____________________________@ TEXT POSITION BY ZABRACODE @______________________________ */
-
-.tx-center {
-    text-align: center !important;
-}
-
-.tx-right {
-    text-align: right !important;
-}
-
-.tx-left {
-    text-align: left !important;
-}
-
-
-/* _____________________________@ FIN :TEXT POSITION BY ZABRACODE @______________________________ */
+/* ==================================================================================================
+ * ZOOM HOVER SCALE PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 .zoom {
     transition: transform .2s ease-in-out;
@@ -1020,9 +1035,6 @@ a:hover {
     transform: scale(1.1);
 }
 
-
-/* Zoom ++ */
-
 .zoom-5 {
     transition: transform .2s ease-in-out;
 }
@@ -1030,9 +1042,6 @@ a:hover {
 .zoom-5:hover {
     transform: scale(2.1);
 }
-
-
-/*  */
 
 .zoom-shadow:hover {
     box-shadow: 0 0 0 #000;
@@ -1043,12 +1052,10 @@ a:hover {
 }
 
 
-/* _____________________________@ TEXT COLOR BY ZABRA CODE @______________________________ */
-
-
 /* ==================================================================================================
  * MARGIN : 
- *      FONT SIZE 
+ *      MARGIN LEFT
+ *      
  * ================================================================================================== */
 
 
@@ -1557,11 +1564,14 @@ a:hover {
 /* _____________________________@ FIN : PADDING BY ZABRACODE @______________________________ */
 
 
-/* _____________________________@ BACKGROUND BY ZABRACODE @______________________________ */
+/* ==================================================================================================
+ * BACKGROUND COLOR PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
-.bg-01 {
-    background: var(--deg);
-}
+
+/* ==================================================================================================
+ * BACKGROUND COLOR PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 .bg-lg-prodig {
     background-image: linear-gradient(to bottom right, #05e2ff, #0066ff) !important;
@@ -1651,9 +1661,9 @@ a:hover {
 }
 
 
-/*
- * BACKGROUND POSITION 
- */
+/* ==================================================================================================
+ * BACKGROUND POSITION PROPERTIES CONFIGURATION
+ * ================================================================================================== */
 
 .bgp-center {
     background-position: center !important;
@@ -1687,92 +1697,6 @@ a:hover {
 .bgs-cover {
     background-size: cover;
 }
-
-
-/* _____________________________@ TEXT COLOR BY ZABRA CODE @______________________________ */
-
-.white {
-    color: #fff;
-}
-
-.black {
-    color: #000;
-}
-
-.whitesmoke {
-    color: whitesmoke;
-}
-
-.gray {
-    color: gray !important;
-}
-
-.tx-white {
-    color: #fff !important;
-}
-
-.tx-black {
-    color: #000;
-}
-
-.tx-prodig {
-    color: rgb(0, 17, 255);
-}
-
-.tx-primary {
-    color: #0168fa;
-}
-
-.tx-success {
-    color: #10b759;
-}
-
-.tx-warning {
-    color: #ffc107;
-}
-
-.tx-danger {
-    color: #dc3545;
-}
-
-.tx-info {
-    color: #00b8d4;
-}
-
-.tx-teal {
-    color: #00cccc;
-}
-
-.tx-orange {
-    color: #fd7e14;
-}
-
-.tx-pink {
-    color: #f10075;
-}
-
-.tx-dark {
-    color: #1b2e4b;
-}
-
-.tx-inverse {
-    color: #001737;
-}
-
-
-/* HOVER */
-
-.h-dark:hover {
-    color: #001737;
-    ;
-}
-
-.h-pink:hover {
-    color: #f10075;
-}
-
-
-/* _____________________________@ FIN : TABLEAUX BY ZABRACODE @______________________________ */
 
 .btn-success {
     background: linear-gradient(to bottom right, #11fd60, #02ca7d, var(--c2));
