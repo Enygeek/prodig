@@ -710,6 +710,10 @@
     color: #fff;
 }
 
+.tx-prodig {
+    color: #151df0 !important;
+}
+
 .tx-black {
     color: #000;
 }
@@ -812,6 +816,10 @@
     background-color: #00000000 !important;
 }
 
+.bg-prodig {
+    background-color: #151df0 !important;
+}
+
 .bg-inverse {
     background-color: #000000;
 }
@@ -859,6 +867,7 @@
 .bg-twitter {
     background-color: #00a7e6;
 }
+
 
 
 /* ==================================================================================================
