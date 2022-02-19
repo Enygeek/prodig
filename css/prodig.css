@@ -39,6 +39,13 @@
     background-size: cover !important;
 }
 
+.bimg-hp5 {
+    height: 112vh !important;
+    background: url('../images/about/2.png') !important;
+    background-position: left top !important;
+    background-repeat: no-repeat !important;
+}
+
 .footer {
     /* height: 60vh !important; */
     margin: 0px !important;
