@@ -1279,7 +1279,7 @@ ul.circle li:before {
 .banner-page {
     height: 350px;
     display: block;
-    background-color: #000;
+    background-color: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -4186,7 +4186,7 @@ Back To Top Section
 
 .banner-page {
     padding: 100px 0;
-    background: url("../images/1920x1300.jpg") bottom center no-repeat;
+    background: #ffffff;
     background-attachment: fixed;
     background-size: cover;
 }
