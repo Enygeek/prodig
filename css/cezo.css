@@ -5,6 +5,14 @@ body {
     min-height: 100vh !important;
 }
 
+.bg-cezo01 {
+    /* height: 112vh !important; */
+    /* background: url('../images/cezo-phone-02.png') !important;
+    background-position: center !important; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat !important; */
+}
+
 #section-01 {
     position: relative;
     width: 100% !important;

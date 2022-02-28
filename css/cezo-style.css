@@ -9,7 +9,7 @@ body {
     position: relative;
     width: 100% !important;
     min-height: 100vh !important;
-    background: rgb(196, 236, 255);
+    background: rgb(14, 125, 177) !important;
     display: flex;
     justify-content: center !important;
     align-items: center !important;
